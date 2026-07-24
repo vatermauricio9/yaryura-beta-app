@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState, useRef, ReactNode } from 'react'
 import { Session, User } from '@supabase/supabase-js'
-import { supabase } from './supabase' 
+import { supabase } from './supabase'  
 
 export type UserRole = 'tenant' | 'staff'
 
